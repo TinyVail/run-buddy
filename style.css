@@ -138,8 +138,6 @@ section {
     margin: 0 auto;
 }
 
-
-
   .section-title {
     font-size: 55px;
     color: #024e76;
@@ -157,6 +155,11 @@ section {
     border-color: #39a6b2;
   }
 
+  .steps { 
+    text-align: center;
+    background: #fce138;
+  }
+  
   .steps div {
     margin-bottom: 80px;
   }
@@ -176,3 +179,64 @@ section {
     color: #39a6b2;
     font-size: 23px;
   }
+
+  .steps span {
+    font-size: 38px;
+  }
+
+/* Trainer Styles */
+
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+  overflow: auto;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+  overflow: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align:right;
+}
+
+.trainer-bio h3 {
+  font: size 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+/* Trainer Styles End */
+
+
+
+
